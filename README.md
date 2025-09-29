@@ -1,16 +1,17 @@
-# React + Vite
+GLAB 320H.7.1 - React Movie Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Learning Objectives
+After this lab, learners will have demonstrated the ability to:
 
-Currently, two official plugins are available:
+Use create-react-app to make a pre-configured React application.
+Use the useEffect React hook.
+Implement the lifting state pattern in React.
+Bind React components to user input elements.
+Make external API requests within a React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instructions
+If you have not yet installed Node.js and npm, please take the time to do so. If you have trouble installing Node, speak with your instructors.
 
-## React Compiler
+Within this lab activity, we will make use of the useEffect hook, practice lifting state that is shared by components, and briefly explore making AJAX/Fetch API requests within a React application. We'll talk more about third-party APIs data fetching in a future lesson.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+We will do this by creating a simple application with an input form that allows us to search for a movie, and components that display the results of that search.
